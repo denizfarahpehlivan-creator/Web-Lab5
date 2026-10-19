@@ -1,34 +1,43 @@
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #e8c6f1, #650862);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 #root {
   max-width: 900px;
   margin: 0 auto;
   padding: 30px 20px;
-  font-family: 'Times New Roman', Times, serif, sans-serif;
-  color: #522169;
-}
-
-body {
-  margin: 0;
-  background: linear-gradient(90deg, #bf86cf, #771f82);
-  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color:#5a0f6b;
 }
 
 /*Product Dashboard*/
 h1 {
   text-align: center;
-  color: #470357;
+  color: #81089d;
   margin-bottom: 10px;
 }
 
 /*our product*/
 h2 {
-  color: #582766;
+  color:#5a0f6b;
 }
 
 input {
   padding: 10px;
   margin: 10px 0;
-  border: 3px solid #c7d2fe;
+  border: 3px solid #803e95;
   border-radius: 10px;
   font-size: 15px;
 }
@@ -38,9 +47,9 @@ button {
   margin: 8px 0;
   border: none;
   border-radius: 10px;
-  background-color: #b046e5;
+  background-color: #7d2da5;
   color: white;
-  cursor:pointer;
+  cursor: pointer;
   font-size: 14px;
 }
 
@@ -50,5 +59,5 @@ button:hover {
 }
 
 p {
-  color: #05080b;
+  color: #dd8de4;
 }
