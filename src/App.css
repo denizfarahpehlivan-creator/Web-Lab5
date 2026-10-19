@@ -37,7 +37,7 @@ h2 {
 input {
   padding: 10px;
   margin: 10px 0;
-  border: 3px solid #803e95;
+  border: 3px solid #6d2085;
   border-radius: 10px;
   font-size: 15px;
 }
@@ -48,7 +48,7 @@ button {
   border: none;
   border-radius: 10px;
   background-color: #7d2da5;
-  color: white;
+  color: rgb(248, 243, 243);
   cursor: pointer;
   font-size: 14px;
 }
@@ -59,5 +59,6 @@ button:hover {
 }
 
 p {
-  color: #dd8de4;
+  color: #73207a;
 }
+
